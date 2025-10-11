@@ -1,11 +1,16 @@
 #include <QApplication>
+#include <QFileDialog>
 #include <QMainWindow>
 #include <QMenu>
 #include <QMenuBar>
+#include <QMessageBox>
+#include <QObject>
 #include <QPlainTextEdit>
+#include <qaction.h>
 #include <qmenu.h>
 #include <qmenubar.h>
 #include <qnamespace.h>
+#include <qobject.h>
 #include <qtextedit.h>
 
 int main(int argc, char *argv[]) {
@@ -19,8 +24,9 @@ int main(int argc, char *argv[]) {
 
   QMenuBar *menubar = new QMenuBar();
   QMenu *file = menubar->addMenu("FILE");
-  
-  file->addAction("Save");
+
+  QAction *save = file->addAction("Save");
+  QAction *something = file->addAction("New");
 
   window.setMenuBar(menubar);
   window.setCentralWidget(edit);

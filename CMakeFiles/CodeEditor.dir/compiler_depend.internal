@@ -2414,6 +2414,810 @@
  /usr/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake
  /usr/share/cmake-3.28/Modules/Platform/Linux.cmake
  /usr/share/cmake-3.28/Modules/Platform/UnixPaths.cmake
+ /home/tahmid/code_editor/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake
+ /home/tahmid/code_editor/CMakeFiles/3.28.3/CMakeSystem.cmake
+ /home/tahmid/code_editor/CMakeLists.txt
+ /home/tahmid/code_editor/src/editor.cpp
+ /home/tahmid/code_editor/src/filemanager.cpp
+ /home/tahmid/code_editor/src/main.cpp
+ /home/tahmid/code_editor/src/syntax.cpp
+ /home/tahmid/code_editor/src/ui.cpp
+ /usr/bin/cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/3rdparty/kwin/FindXKB.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/FindWrapAtomic.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/FindWrapOpenGL.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/FindWrapVulkanHeaders.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6Config.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6ConfigExtras.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6ConfigVersion.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6ConfigVersionImpl.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6Dependencies.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6Targets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6VersionlessTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtFeature.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtFeatureCommon.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicAppleHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicCMakeHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicDependencyHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicFinalizerHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicFindPackageHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicPluginHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicTargetHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicTestHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicToolHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicWalkLibsHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreConfig.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreConfigExtras.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreConfigVersion.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreDependencies.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreMacros.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreTargets-none.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreVersionlessTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsTargets-none.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusAdditionalTargetInfo.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusConfig.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusConfigVersionImpl.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusDependencies.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusMacros.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusTargets-none.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusVersionlessTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsAdditionalTargetInfo.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsConfig.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersion.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsDependencies.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsTargets-none.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsVersionlessTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiConfig.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiDependencies.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiTargets-none.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiVersionlessTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6GuiTools/Qt6GuiToolsTargets-none.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsTargets-none.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsVersionlessTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-none.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake
+ /usr/share/cmake-3.28/Modules/CMakeCXXInformation.cmake
+ /usr/share/cmake-3.28/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+ /usr/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake
+ /usr/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake
+ /usr/share/cmake-3.28/Modules/CMakeGenericSystem.cmake
+ /usr/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake
+ /usr/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake
+ /usr/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake
+ /usr/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake
+ /usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake
+ /usr/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake
+ /usr/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake
+ /usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake
+ /usr/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+ /usr/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake
+ /usr/share/cmake-3.28/Modules/Compiler/GNU.cmake
+ /usr/share/cmake-3.28/Modules/FeatureSummary.cmake
+ /usr/share/cmake-3.28/Modules/FindOpenGL.cmake
+ /usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake
+ /usr/share/cmake-3.28/Modules/FindPackageMessage.cmake
+ /usr/share/cmake-3.28/Modules/FindPkgConfig.cmake
+ /usr/share/cmake-3.28/Modules/FindThreads.cmake
+ /usr/share/cmake-3.28/Modules/FindVulkan.cmake
+ /usr/share/cmake-3.28/Modules/GNUInstallDirs.cmake
+ /usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake
+ /usr/share/cmake-3.28/Modules/Internal/CheckFlagCommonConfig.cmake
+ /usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake
+ /usr/share/cmake-3.28/Modules/MacroAddFileDependencies.cmake
+ /usr/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake
+ /usr/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake
+ /usr/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake
+ /usr/share/cmake-3.28/Modules/Platform/Linux.cmake
+ /usr/share/cmake-3.28/Modules/Platform/UnixPaths.cmake
+ /home/tahmid/code_editor/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake
+ /home/tahmid/code_editor/CMakeFiles/3.28.3/CMakeSystem.cmake
+ /home/tahmid/code_editor/CMakeLists.txt
+ /home/tahmid/code_editor/src/editor.cpp
+ /home/tahmid/code_editor/src/filemanager.cpp
+ /home/tahmid/code_editor/src/main.cpp
+ /home/tahmid/code_editor/src/syntax.cpp
+ /home/tahmid/code_editor/src/ui.cpp
+ /usr/bin/cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/3rdparty/kwin/FindXKB.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/FindWrapAtomic.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/FindWrapOpenGL.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/FindWrapVulkanHeaders.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6Config.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6ConfigExtras.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6ConfigVersion.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6ConfigVersionImpl.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6Dependencies.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6Targets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6VersionlessTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtFeature.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtFeatureCommon.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicAppleHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicCMakeHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicDependencyHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicFinalizerHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicFindPackageHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicPluginHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicTargetHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicTestHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicToolHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicWalkLibsHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreConfig.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreConfigExtras.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreConfigVersion.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreDependencies.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreMacros.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreTargets-none.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreVersionlessTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsTargets-none.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusAdditionalTargetInfo.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusConfig.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusConfigVersionImpl.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusDependencies.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusMacros.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusTargets-none.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusVersionlessTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsAdditionalTargetInfo.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsConfig.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersion.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsDependencies.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsTargets-none.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsVersionlessTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiConfig.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiDependencies.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiTargets-none.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiVersionlessTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6GuiTools/Qt6GuiToolsTargets-none.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsTargets-none.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsVersionlessTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-none.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake
+ /usr/share/cmake-3.28/Modules/CMakeCXXInformation.cmake
+ /usr/share/cmake-3.28/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+ /usr/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake
+ /usr/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake
+ /usr/share/cmake-3.28/Modules/CMakeGenericSystem.cmake
+ /usr/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake
+ /usr/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake
+ /usr/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake
+ /usr/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake
+ /usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake
+ /usr/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake
+ /usr/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake
+ /usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake
+ /usr/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+ /usr/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake
+ /usr/share/cmake-3.28/Modules/Compiler/GNU.cmake
+ /usr/share/cmake-3.28/Modules/FeatureSummary.cmake
+ /usr/share/cmake-3.28/Modules/FindOpenGL.cmake
+ /usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake
+ /usr/share/cmake-3.28/Modules/FindPackageMessage.cmake
+ /usr/share/cmake-3.28/Modules/FindPkgConfig.cmake
+ /usr/share/cmake-3.28/Modules/FindThreads.cmake
+ /usr/share/cmake-3.28/Modules/FindVulkan.cmake
+ /usr/share/cmake-3.28/Modules/GNUInstallDirs.cmake
+ /usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake
+ /usr/share/cmake-3.28/Modules/Internal/CheckFlagCommonConfig.cmake
+ /usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake
+ /usr/share/cmake-3.28/Modules/MacroAddFileDependencies.cmake
+ /usr/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake
+ /usr/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake
+ /usr/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake
+ /usr/share/cmake-3.28/Modules/Platform/Linux.cmake
+ /usr/share/cmake-3.28/Modules/Platform/UnixPaths.cmake
+ /home/tahmid/code_editor/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake
+ /home/tahmid/code_editor/CMakeFiles/3.28.3/CMakeSystem.cmake
+ /home/tahmid/code_editor/CMakeLists.txt
+ /home/tahmid/code_editor/src/editor.cpp
+ /home/tahmid/code_editor/src/filemanager.cpp
+ /home/tahmid/code_editor/src/main.cpp
+ /home/tahmid/code_editor/src/syntax.cpp
+ /home/tahmid/code_editor/src/ui.cpp
+ /usr/bin/cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/3rdparty/kwin/FindXKB.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/FindWrapAtomic.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/FindWrapOpenGL.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/FindWrapVulkanHeaders.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6Config.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6ConfigExtras.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6ConfigVersion.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6ConfigVersionImpl.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6Dependencies.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6Targets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6VersionlessTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtFeature.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtFeatureCommon.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicAppleHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicCMakeHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicDependencyHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicFinalizerHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicFindPackageHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicPluginHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicTargetHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicTestHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicToolHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicWalkLibsHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreConfig.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreConfigExtras.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreConfigVersion.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreDependencies.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreMacros.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreTargets-none.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreVersionlessTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsTargets-none.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusAdditionalTargetInfo.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusConfig.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusConfigVersionImpl.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusDependencies.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusMacros.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusTargets-none.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusVersionlessTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsAdditionalTargetInfo.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsConfig.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersion.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsDependencies.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsTargets-none.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsVersionlessTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiConfig.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiDependencies.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiTargets-none.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiVersionlessTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6GuiTools/Qt6GuiToolsTargets-none.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsTargets-none.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsVersionlessTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-none.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake
+ /usr/share/cmake-3.28/Modules/CMakeCXXInformation.cmake
+ /usr/share/cmake-3.28/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+ /usr/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake
+ /usr/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake
+ /usr/share/cmake-3.28/Modules/CMakeGenericSystem.cmake
+ /usr/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake
+ /usr/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake
+ /usr/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake
+ /usr/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake
+ /usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake
+ /usr/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake
+ /usr/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake
+ /usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake
+ /usr/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+ /usr/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake
+ /usr/share/cmake-3.28/Modules/Compiler/GNU.cmake
+ /usr/share/cmake-3.28/Modules/FeatureSummary.cmake
+ /usr/share/cmake-3.28/Modules/FindOpenGL.cmake
+ /usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake
+ /usr/share/cmake-3.28/Modules/FindPackageMessage.cmake
+ /usr/share/cmake-3.28/Modules/FindPkgConfig.cmake
+ /usr/share/cmake-3.28/Modules/FindThreads.cmake
+ /usr/share/cmake-3.28/Modules/FindVulkan.cmake
+ /usr/share/cmake-3.28/Modules/GNUInstallDirs.cmake
+ /usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake
+ /usr/share/cmake-3.28/Modules/Internal/CheckFlagCommonConfig.cmake
+ /usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake
+ /usr/share/cmake-3.28/Modules/MacroAddFileDependencies.cmake
+ /usr/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake
+ /usr/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake
+ /usr/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake
+ /usr/share/cmake-3.28/Modules/Platform/Linux.cmake
+ /usr/share/cmake-3.28/Modules/Platform/UnixPaths.cmake
+ /home/tahmid/code_editor/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake
+ /home/tahmid/code_editor/CMakeFiles/3.28.3/CMakeSystem.cmake
+ /home/tahmid/code_editor/CMakeLists.txt
+ /home/tahmid/code_editor/src/editor.cpp
+ /home/tahmid/code_editor/src/filemanager.cpp
+ /home/tahmid/code_editor/src/main.cpp
+ /home/tahmid/code_editor/src/syntax.cpp
+ /home/tahmid/code_editor/src/ui.cpp
+ /usr/bin/cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/3rdparty/kwin/FindXKB.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/FindWrapAtomic.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/FindWrapOpenGL.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/FindWrapVulkanHeaders.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6Config.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6ConfigExtras.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6ConfigVersion.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6ConfigVersionImpl.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6Dependencies.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6Targets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6VersionlessTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtFeature.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtFeatureCommon.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicAppleHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicCMakeHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicDependencyHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicFinalizerHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicFindPackageHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicPluginHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicTargetHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicTestHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicToolHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicWalkLibsHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreConfig.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreConfigExtras.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreConfigVersion.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreDependencies.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreMacros.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreTargets-none.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreVersionlessTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsTargets-none.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusAdditionalTargetInfo.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusConfig.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusConfigVersionImpl.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusDependencies.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusMacros.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusTargets-none.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusVersionlessTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsAdditionalTargetInfo.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsConfig.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersion.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsDependencies.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsTargets-none.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsVersionlessTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiConfig.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiDependencies.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiTargets-none.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiVersionlessTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6GuiTools/Qt6GuiToolsTargets-none.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsTargets-none.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsVersionlessTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-none.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake
+ /usr/share/cmake-3.28/Modules/CMakeCXXInformation.cmake
+ /usr/share/cmake-3.28/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+ /usr/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake
+ /usr/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake
+ /usr/share/cmake-3.28/Modules/CMakeGenericSystem.cmake
+ /usr/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake
+ /usr/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake
+ /usr/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake
+ /usr/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake
+ /usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake
+ /usr/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake
+ /usr/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake
+ /usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake
+ /usr/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+ /usr/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake
+ /usr/share/cmake-3.28/Modules/Compiler/GNU.cmake
+ /usr/share/cmake-3.28/Modules/FeatureSummary.cmake
+ /usr/share/cmake-3.28/Modules/FindOpenGL.cmake
+ /usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake
+ /usr/share/cmake-3.28/Modules/FindPackageMessage.cmake
+ /usr/share/cmake-3.28/Modules/FindPkgConfig.cmake
+ /usr/share/cmake-3.28/Modules/FindThreads.cmake
+ /usr/share/cmake-3.28/Modules/FindVulkan.cmake
+ /usr/share/cmake-3.28/Modules/GNUInstallDirs.cmake
+ /usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake
+ /usr/share/cmake-3.28/Modules/Internal/CheckFlagCommonConfig.cmake
+ /usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake
+ /usr/share/cmake-3.28/Modules/MacroAddFileDependencies.cmake
+ /usr/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake
+ /usr/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake
+ /usr/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake
+ /usr/share/cmake-3.28/Modules/Platform/Linux.cmake
+ /usr/share/cmake-3.28/Modules/Platform/UnixPaths.cmake
+ /home/tahmid/code_editor/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake
+ /home/tahmid/code_editor/CMakeFiles/3.28.3/CMakeSystem.cmake
+ /home/tahmid/code_editor/CMakeLists.txt
+ /home/tahmid/code_editor/src/editor.cpp
+ /home/tahmid/code_editor/src/filemanager.cpp
+ /home/tahmid/code_editor/src/main.cpp
+ /home/tahmid/code_editor/src/syntax.cpp
+ /home/tahmid/code_editor/src/ui.cpp
+ /usr/bin/cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/3rdparty/kwin/FindXKB.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/FindWrapAtomic.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/FindWrapOpenGL.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/FindWrapVulkanHeaders.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6Config.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6ConfigExtras.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6ConfigVersion.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6ConfigVersionImpl.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6Dependencies.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6Targets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6VersionlessTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtFeature.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtFeatureCommon.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicAppleHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicCMakeHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicDependencyHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicFinalizerHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicFindPackageHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicPluginHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicTargetHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicTestHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicToolHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicWalkLibsHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreConfig.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreConfigExtras.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreConfigVersion.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreDependencies.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreMacros.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreTargets-none.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreVersionlessTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsTargets-none.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusAdditionalTargetInfo.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusConfig.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusConfigVersionImpl.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusDependencies.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusMacros.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusTargets-none.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusVersionlessTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsAdditionalTargetInfo.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsConfig.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersion.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsDependencies.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsTargets-none.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsVersionlessTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiConfig.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiDependencies.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiTargets-none.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiVersionlessTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6GuiTools/Qt6GuiToolsTargets-none.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsTargets-none.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsVersionlessTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-none.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake
+ /usr/share/cmake-3.28/Modules/CMakeCXXInformation.cmake
+ /usr/share/cmake-3.28/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+ /usr/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake
+ /usr/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake
+ /usr/share/cmake-3.28/Modules/CMakeGenericSystem.cmake
+ /usr/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake
+ /usr/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake
+ /usr/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake
+ /usr/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake
+ /usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake
+ /usr/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake
+ /usr/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake
+ /usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake
+ /usr/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+ /usr/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake
+ /usr/share/cmake-3.28/Modules/Compiler/GNU.cmake
+ /usr/share/cmake-3.28/Modules/FeatureSummary.cmake
+ /usr/share/cmake-3.28/Modules/FindOpenGL.cmake
+ /usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake
+ /usr/share/cmake-3.28/Modules/FindPackageMessage.cmake
+ /usr/share/cmake-3.28/Modules/FindPkgConfig.cmake
+ /usr/share/cmake-3.28/Modules/FindThreads.cmake
+ /usr/share/cmake-3.28/Modules/FindVulkan.cmake
+ /usr/share/cmake-3.28/Modules/GNUInstallDirs.cmake
+ /usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake
+ /usr/share/cmake-3.28/Modules/Internal/CheckFlagCommonConfig.cmake
+ /usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake
+ /usr/share/cmake-3.28/Modules/MacroAddFileDependencies.cmake
+ /usr/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake
+ /usr/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake
+ /usr/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake
+ /usr/share/cmake-3.28/Modules/Platform/Linux.cmake
+ /usr/share/cmake-3.28/Modules/Platform/UnixPaths.cmake
+ /home/tahmid/code_editor/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake
+ /home/tahmid/code_editor/CMakeFiles/3.28.3/CMakeSystem.cmake
+ /home/tahmid/code_editor/CMakeLists.txt
+ /home/tahmid/code_editor/src/editor.cpp
+ /home/tahmid/code_editor/src/filemanager.cpp
+ /home/tahmid/code_editor/src/main.cpp
+ /home/tahmid/code_editor/src/syntax.cpp
+ /home/tahmid/code_editor/src/ui.cpp
+ /usr/bin/cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/3rdparty/kwin/FindXKB.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/FindWrapAtomic.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/FindWrapOpenGL.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/FindWrapVulkanHeaders.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6Config.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6ConfigExtras.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6ConfigVersion.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6ConfigVersionImpl.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6Dependencies.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6Targets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6VersionlessTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtFeature.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtFeatureCommon.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicAppleHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicCMakeHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicDependencyHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicFinalizerHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicFindPackageHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicPluginHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicTargetHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicTestHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicToolHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicWalkLibsHelpers.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreConfig.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreConfigExtras.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreConfigVersion.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreDependencies.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreMacros.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreTargets-none.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreVersionlessTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsTargets-none.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusAdditionalTargetInfo.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusConfig.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusConfigVersionImpl.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusDependencies.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusMacros.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusTargets-none.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusVersionlessTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsAdditionalTargetInfo.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsConfig.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersion.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsDependencies.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsTargets-none.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsVersionlessTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiConfig.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiDependencies.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiTargets-none.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiVersionlessTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6GuiTools/Qt6GuiToolsTargets-none.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsTargets-none.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsVersionlessTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-none.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake
+ /usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake
+ /usr/share/cmake-3.28/Modules/CMakeCXXInformation.cmake
+ /usr/share/cmake-3.28/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+ /usr/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake
+ /usr/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake
+ /usr/share/cmake-3.28/Modules/CMakeGenericSystem.cmake
+ /usr/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake
+ /usr/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake
+ /usr/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake
+ /usr/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake
+ /usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake
+ /usr/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake
+ /usr/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake
+ /usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake
+ /usr/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+ /usr/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake
+ /usr/share/cmake-3.28/Modules/Compiler/GNU.cmake
+ /usr/share/cmake-3.28/Modules/FeatureSummary.cmake
+ /usr/share/cmake-3.28/Modules/FindOpenGL.cmake
+ /usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake
+ /usr/share/cmake-3.28/Modules/FindPackageMessage.cmake
+ /usr/share/cmake-3.28/Modules/FindPkgConfig.cmake
+ /usr/share/cmake-3.28/Modules/FindThreads.cmake
+ /usr/share/cmake-3.28/Modules/FindVulkan.cmake
+ /usr/share/cmake-3.28/Modules/GNUInstallDirs.cmake
+ /usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake
+ /usr/share/cmake-3.28/Modules/Internal/CheckFlagCommonConfig.cmake
+ /usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake
+ /usr/share/cmake-3.28/Modules/MacroAddFileDependencies.cmake
+ /usr/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake
+ /usr/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake
+ /usr/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake
+ /usr/share/cmake-3.28/Modules/Platform/Linux.cmake
+ /usr/share/cmake-3.28/Modules/Platform/UnixPaths.cmake
 
 CMakeFiles/CodeEditor.dir/CodeEditor_autogen/mocs_compilation.cpp.o
  /home/tahmid/code_editor/CodeEditor_autogen/mocs_compilation.cpp
@@ -2446,11 +3250,14 @@ CMakeFiles/CodeEditor.dir/src/main.cpp.o
  /usr/include/c++/13/bits/allocator.h
  /usr/include/c++/13/bits/atomic_base.h
  /usr/include/c++/13/bits/atomic_lockfree_defines.h
+ /usr/include/c++/13/bits/basic_ios.h
+ /usr/include/c++/13/bits/basic_ios.tcc
  /usr/include/c++/13/bits/basic_string.h
  /usr/include/c++/13/bits/basic_string.tcc
  /usr/include/c++/13/bits/char_traits.h
  /usr/include/c++/13/bits/charconv.h
  /usr/include/c++/13/bits/chrono.h
+ /usr/include/c++/13/bits/codecvt.h
  /usr/include/c++/13/bits/concept_check.h
  /usr/include/c++/13/bits/cpp_type_traits.h
  /usr/include/c++/13/bits/cxxabi_forced.h
@@ -2460,6 +3267,10 @@ CMakeFiles/CodeEditor.dir/src/main.cpp.o
  /usr/include/c++/13/bits/exception.h
  /usr/include/c++/13/bits/exception_defines.h
  /usr/include/c++/13/bits/exception_ptr.h
+ /usr/include/c++/13/bits/fs_dir.h
+ /usr/include/c++/13/bits/fs_fwd.h
+ /usr/include/c++/13/bits/fs_ops.h
+ /usr/include/c++/13/bits/fs_path.h
  /usr/include/c++/13/bits/functexcept.h
  /usr/include/c++/13/bits/functional_hash.h
  /usr/include/c++/13/bits/hash_bytes.h
@@ -2467,9 +3278,15 @@ CMakeFiles/CodeEditor.dir/src/main.cpp.o
  /usr/include/c++/13/bits/hashtable_policy.h
  /usr/include/c++/13/bits/invoke.h
  /usr/include/c++/13/bits/ios_base.h
+ /usr/include/c++/13/bits/istream.tcc
  /usr/include/c++/13/bits/list.tcc
  /usr/include/c++/13/bits/locale_classes.h
  /usr/include/c++/13/bits/locale_classes.tcc
+ /usr/include/c++/13/bits/locale_conv.h
+ /usr/include/c++/13/bits/locale_facets.h
+ /usr/include/c++/13/bits/locale_facets.tcc
+ /usr/include/c++/13/bits/locale_facets_nonio.h
+ /usr/include/c++/13/bits/locale_facets_nonio.tcc
  /usr/include/c++/13/bits/localefwd.h
  /usr/include/c++/13/bits/memory_resource.h
  /usr/include/c++/13/bits/memoryfwd.h
@@ -2477,11 +3294,13 @@ CMakeFiles/CodeEditor.dir/src/main.cpp.o
  /usr/include/c++/13/bits/nested_exception.h
  /usr/include/c++/13/bits/new_allocator.h
  /usr/include/c++/13/bits/node_handle.h
+ /usr/include/c++/13/bits/ostream.tcc
  /usr/include/c++/13/bits/ostream_insert.h
  /usr/include/c++/13/bits/parse_numbers.h
  /usr/include/c++/13/bits/postypes.h
  /usr/include/c++/13/bits/predefined_ops.h
  /usr/include/c++/13/bits/ptr_traits.h
+ /usr/include/c++/13/bits/quoted_string.h
  /usr/include/c++/13/bits/range_access.h
  /usr/include/c++/13/bits/refwrap.h
  /usr/include/c++/13/bits/requires_hosted.h
@@ -2489,6 +3308,7 @@ CMakeFiles/CodeEditor.dir/src/main.cpp.o
  /usr/include/c++/13/bits/shared_ptr_atomic.h
  /usr/include/c++/13/bits/shared_ptr_base.h
  /usr/include/c++/13/bits/specfun.h
+ /usr/include/c++/13/bits/sstream.tcc
  /usr/include/c++/13/bits/std_abs.h
  /usr/include/c++/13/bits/std_function.h
  /usr/include/c++/13/bits/stl_algo.h
@@ -2528,6 +3348,7 @@ CMakeFiles/CodeEditor.dir/src/main.cpp.o
  /usr/include/c++/13/chrono
  /usr/include/c++/13/clocale
  /usr/include/c++/13/cmath
+ /usr/include/c++/13/codecvt
  /usr/include/c++/13/compare
  /usr/include/c++/13/cstddef
  /usr/include/c++/13/cstdint
@@ -2536,6 +3357,7 @@ CMakeFiles/CodeEditor.dir/src/main.cpp.o
  /usr/include/c++/13/cstring
  /usr/include/c++/13/ctime
  /usr/include/c++/13/cwchar
+ /usr/include/c++/13/cwctype
  /usr/include/c++/13/debug/assertions.h
  /usr/include/c++/13/debug/debug.h
  /usr/include/c++/13/exception
@@ -2546,23 +3368,30 @@ CMakeFiles/CodeEditor.dir/src/main.cpp.o
  /usr/include/c++/13/ext/numeric_traits.h
  /usr/include/c++/13/ext/string_conversions.h
  /usr/include/c++/13/ext/type_traits.h
+ /usr/include/c++/13/filesystem
  /usr/include/c++/13/functional
  /usr/include/c++/13/initializer_list
+ /usr/include/c++/13/iomanip
+ /usr/include/c++/13/ios
  /usr/include/c++/13/iosfwd
+ /usr/include/c++/13/istream
  /usr/include/c++/13/iterator
  /usr/include/c++/13/limits
  /usr/include/c++/13/list
+ /usr/include/c++/13/locale
  /usr/include/c++/13/map
  /usr/include/c++/13/memory
  /usr/include/c++/13/new
  /usr/include/c++/13/numeric
  /usr/include/c++/13/optional
+ /usr/include/c++/13/ostream
  /usr/include/c++/13/pstl/execution_defs.h
  /usr/include/c++/13/pstl/glue_algorithm_defs.h
  /usr/include/c++/13/pstl/glue_memory_defs.h
  /usr/include/c++/13/pstl/glue_numeric_defs.h
  /usr/include/c++/13/pstl/pstl_config.h
  /usr/include/c++/13/ratio
+ /usr/include/c++/13/sstream
  /usr/include/c++/13/stdexcept
  /usr/include/c++/13/stdlib.h
  /usr/include/c++/13/streambuf
@@ -2594,6 +3423,7 @@ CMakeFiles/CodeEditor.dir/src/main.cpp.o
  /usr/include/errno.h
  /usr/include/features-time64.h
  /usr/include/features.h
+ /usr/include/libintl.h
  /usr/include/limits.h
  /usr/include/linux/errno.h
  /usr/include/linux/limits.h
@@ -2609,6 +3439,7 @@ CMakeFiles/CodeEditor.dir/src/main.cpp.o
  /usr/include/strings.h
  /usr/include/time.h
  /usr/include/wchar.h
+ /usr/include/wctype.h
  /usr/include/x86_64-linux-gnu/asm/errno.h
  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h
  /usr/include/x86_64-linux-gnu/bits/byteswap.h
@@ -2682,6 +3513,7 @@ CMakeFiles/CodeEditor.dir/src/main.cpp.o
  /usr/include/x86_64-linux-gnu/bits/waitflags.h
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h
  /usr/include/x86_64-linux-gnu/bits/wchar.h
+ /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h
  /usr/include/x86_64-linux-gnu/bits/wordsize.h
  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h
  /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h
@@ -2689,10 +3521,14 @@ CMakeFiles/CodeEditor.dir/src/main.cpp.o
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h
  /usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h
+ /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h
+ /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h
  /usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h
  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h
  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h
+ /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h
+ /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
  /usr/include/x86_64-linux-gnu/gnu/stubs.h
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QList
@@ -2713,6 +3549,7 @@ CMakeFiles/CodeEditor.dir/src/main.cpp.o
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qbytearrayalgorithms.h
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qbytearraylist.h
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qbytearrayview.h
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qcalendar.h
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qchar.h
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcompare.h
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcompare_impl.h
@@ -2726,8 +3563,13 @@ CMakeFiles/CodeEditor.dir/src/main.cpp.o
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcoreapplication_platform.h
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcoreevent.h
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qdatastream.h
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qdatetime.h
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qdebug.h
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qdir.h
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qeventloop.h
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qfile.h
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qfiledevice.h
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qfileinfo.h
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qflags.h
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qforeach.h
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qgenericatomic.h
@@ -2838,16 +3680,21 @@ CMakeFiles/CodeEditor.dir/src/main.cpp.o
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qvectornd.h
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qwindowdefs.h
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QApplication
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QFileDialog
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMainWindow
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMenu
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMenuBar
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMessageBox
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QPlainTextEdit
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractscrollarea.h
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qapplication.h
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qdialog.h
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qfiledialog.h
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qframe.h
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmainwindow.h
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmenu.h
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmenubar.h
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmessagebox.h
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qplaintextedit.h
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qsizepolicy.h
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtabwidget.h
