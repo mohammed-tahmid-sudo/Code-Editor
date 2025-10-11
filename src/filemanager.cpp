@@ -1,27 +1,29 @@
-// // Filemanager.cpp — part of the CodeEditor project
-// #include <QApplication>
-// #include <QMainWindow>
+// #include "SaveWindow.h"
 // #include <QMenuBar>
 // #include <QFileDialog>
-// #include <QMessageBox>
+// #include <QTextStream>
+// #include <QAction>
 //
-// int main(int argc, char *argv[]) {
-//     QApplication app(argc, argv);
-//     QMainWindow window;
+// SaveWindow::SaveWindow() {
+//     setWindowTitle("Save Menu");
 //
-//     QMenuBar *menuBar = window.menuBar();
-//     QMenu *fileMenu = menuBar->addMenu("File");
+//     edit = new QTextEdit(this);
+//     setCentralWidget(edit);
 //
-//     QAction *openAction = fileMenu->addAction("Open");
+//     QMenu *fileMenu = menuBar()->addMenu("File");
+//     QAction *saveAction = fileMenu->addAction("Save");
 //
-//     QObject::connect(openAction, &QAction::triggered, [&]() {
-//         QString fileName = QFileDialog::getOpenFileName(&window, "Open File", "", "All Files (*)");
-//         if (!fileName.isEmpty()) {
-//             QMessageBox::information(&window, "Selected File", fileName);
+//     connect(saveAction, &QAction::triggered, this, &SaveWindow::saveFile);
+// }
+//
+// void SaveWindow::saveFile() {
+//     QString path = QFileDialog::getSaveFileName(this, "Save File", "", "Text Files (*.txt);;All Files (*)");
+//     if (!path.isEmpty()) {
+//         QFile file(path);
+//         if (file.open(QIODevice::WriteOnly | QIODevice::Text)) {
+//             QTextStream out(&file);
+//             out << edit->toPlainText();
 //         }
-//     });
-//
-//     window.show();
-//     return app.exec();
+//     }
 // }
 //

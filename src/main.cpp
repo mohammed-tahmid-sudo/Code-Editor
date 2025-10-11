@@ -6,6 +6,10 @@
 #include <QMessageBox>
 #include <QObject>
 #include <QPlainTextEdit>
+#include <QPushButton>
+#include <QTextStream>
+#include <QVBoxLayout>
+#include <QWidget>
 #include <qaction.h>
 #include <qmenu.h>
 #include <qmenubar.h>
@@ -26,7 +30,25 @@ int main(int argc, char *argv[]) {
   QMenu *file = menubar->addMenu("FILE");
 
   QAction *save = file->addAction("Save");
+
   QAction *something = file->addAction("New");
+
+  QObject::connect(save, &QAction::triggered, [&]() {
+
+    QString path = QFileDialog::getSaveFileName(
+
+        &window, "Save File", "", "Text Files (*.txt);;All Files (*)");
+
+    if (!path.isEmpty()) {
+      QFile file(path);
+      if (file.open(QIODevice::WriteOnly | QIODevice::Text)) {
+
+        QTextStream out(&file);
+        out << edit->toPlainText();
+
+      }
+    }
+  });
 
   window.setMenuBar(menubar);
   window.setCentralWidget(edit);
