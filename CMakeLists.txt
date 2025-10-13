@@ -28,6 +28,7 @@ set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC ON)
 
 find_package(Qt6 REQUIRED COMPONENTS Core Gui Widgets)
+find_package(QScintilla2 REQUIRED)
 
 file(GLOB SRC_FILES src/*.cpp)
 
