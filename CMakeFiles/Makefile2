@@ -73,24 +73,21 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/CodeEditor.dir/clean
 clean: CMakeFiles/run.dir/clean
-clean: CMakeFiles/CodeEditor_autogen_timestamp_deps.dir/clean
-clean: CMakeFiles/CodeEditor_autogen.dir/clean
 .PHONY : clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/CodeEditor.dir
 
 # All Build rule for target.
-CMakeFiles/CodeEditor.dir/all: CMakeFiles/CodeEditor_autogen_timestamp_deps.dir/all
-CMakeFiles/CodeEditor.dir/all: CMakeFiles/CodeEditor_autogen.dir/all
+CMakeFiles/CodeEditor.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CodeEditor.dir/build.make CMakeFiles/CodeEditor.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CodeEditor.dir/build.make CMakeFiles/CodeEditor.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/tahmid/code_editor/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target CodeEditor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/tahmid/code_editor/CMakeFiles --progress-num=1,2 "Built target CodeEditor"
 .PHONY : CMakeFiles/CodeEditor.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CodeEditor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tahmid/code_editor/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tahmid/code_editor/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/CodeEditor.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/tahmid/code_editor/CMakeFiles 0
 .PHONY : CMakeFiles/CodeEditor.dir/rule
@@ -108,15 +105,15 @@ CMakeFiles/CodeEditor.dir/clean:
 # Target rules for target CMakeFiles/run.dir
 
 # All Build rule for target.
-CMakeFiles/run.dir/all: CMakeFiles/CodeEditor.dir/all
+CMakeFiles/run.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/tahmid/code_editor/CMakeFiles --progress-num= "Built target run"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/tahmid/code_editor/CMakeFiles --progress-num=3 "Built target run"
 .PHONY : CMakeFiles/run.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/run.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tahmid/code_editor/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tahmid/code_editor/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/run.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/tahmid/code_editor/CMakeFiles 0
 .PHONY : CMakeFiles/run.dir/rule
@@ -129,58 +126,6 @@ run: CMakeFiles/run.dir/rule
 CMakeFiles/run.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/clean
 .PHONY : CMakeFiles/run.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/CodeEditor_autogen_timestamp_deps.dir
-
-# All Build rule for target.
-CMakeFiles/CodeEditor_autogen_timestamp_deps.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CodeEditor_autogen_timestamp_deps.dir/build.make CMakeFiles/CodeEditor_autogen_timestamp_deps.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CodeEditor_autogen_timestamp_deps.dir/build.make CMakeFiles/CodeEditor_autogen_timestamp_deps.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/tahmid/code_editor/CMakeFiles --progress-num= "Built target CodeEditor_autogen_timestamp_deps"
-.PHONY : CMakeFiles/CodeEditor_autogen_timestamp_deps.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/CodeEditor_autogen_timestamp_deps.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tahmid/code_editor/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/CodeEditor_autogen_timestamp_deps.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tahmid/code_editor/CMakeFiles 0
-.PHONY : CMakeFiles/CodeEditor_autogen_timestamp_deps.dir/rule
-
-# Convenience name for target.
-CodeEditor_autogen_timestamp_deps: CMakeFiles/CodeEditor_autogen_timestamp_deps.dir/rule
-.PHONY : CodeEditor_autogen_timestamp_deps
-
-# clean rule for target.
-CMakeFiles/CodeEditor_autogen_timestamp_deps.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CodeEditor_autogen_timestamp_deps.dir/build.make CMakeFiles/CodeEditor_autogen_timestamp_deps.dir/clean
-.PHONY : CMakeFiles/CodeEditor_autogen_timestamp_deps.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/CodeEditor_autogen.dir
-
-# All Build rule for target.
-CMakeFiles/CodeEditor_autogen.dir/all: CMakeFiles/CodeEditor_autogen_timestamp_deps.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CodeEditor_autogen.dir/build.make CMakeFiles/CodeEditor_autogen.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CodeEditor_autogen.dir/build.make CMakeFiles/CodeEditor_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/tahmid/code_editor/CMakeFiles --progress-num=9 "Built target CodeEditor_autogen"
-.PHONY : CMakeFiles/CodeEditor_autogen.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/CodeEditor_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tahmid/code_editor/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/CodeEditor_autogen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tahmid/code_editor/CMakeFiles 0
-.PHONY : CMakeFiles/CodeEditor_autogen.dir/rule
-
-# Convenience name for target.
-CodeEditor_autogen: CMakeFiles/CodeEditor_autogen.dir/rule
-.PHONY : CodeEditor_autogen
-
-# clean rule for target.
-CMakeFiles/CodeEditor_autogen.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CodeEditor_autogen.dir/build.make CMakeFiles/CodeEditor_autogen.dir/clean
-.PHONY : CMakeFiles/CodeEditor_autogen.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

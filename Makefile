@@ -142,104 +142,6 @@ run/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/build
 .PHONY : run/fast
 
-#=============================================================================
-# Target rules for targets named CodeEditor_autogen_timestamp_deps
-
-# Build rule for target.
-CodeEditor_autogen_timestamp_deps: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CodeEditor_autogen_timestamp_deps
-.PHONY : CodeEditor_autogen_timestamp_deps
-
-# fast build rule for target.
-CodeEditor_autogen_timestamp_deps/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CodeEditor_autogen_timestamp_deps.dir/build.make CMakeFiles/CodeEditor_autogen_timestamp_deps.dir/build
-.PHONY : CodeEditor_autogen_timestamp_deps/fast
-
-#=============================================================================
-# Target rules for targets named CodeEditor_autogen
-
-# Build rule for target.
-CodeEditor_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CodeEditor_autogen
-.PHONY : CodeEditor_autogen
-
-# fast build rule for target.
-CodeEditor_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CodeEditor_autogen.dir/build.make CMakeFiles/CodeEditor_autogen.dir/build
-.PHONY : CodeEditor_autogen/fast
-
-CodeEditor_autogen/mocs_compilation.o: CodeEditor_autogen/mocs_compilation.cpp.o
-.PHONY : CodeEditor_autogen/mocs_compilation.o
-
-# target to build an object file
-CodeEditor_autogen/mocs_compilation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CodeEditor.dir/build.make CMakeFiles/CodeEditor.dir/CodeEditor_autogen/mocs_compilation.cpp.o
-.PHONY : CodeEditor_autogen/mocs_compilation.cpp.o
-
-CodeEditor_autogen/mocs_compilation.i: CodeEditor_autogen/mocs_compilation.cpp.i
-.PHONY : CodeEditor_autogen/mocs_compilation.i
-
-# target to preprocess a source file
-CodeEditor_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CodeEditor.dir/build.make CMakeFiles/CodeEditor.dir/CodeEditor_autogen/mocs_compilation.cpp.i
-.PHONY : CodeEditor_autogen/mocs_compilation.cpp.i
-
-CodeEditor_autogen/mocs_compilation.s: CodeEditor_autogen/mocs_compilation.cpp.s
-.PHONY : CodeEditor_autogen/mocs_compilation.s
-
-# target to generate assembly for a file
-CodeEditor_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CodeEditor.dir/build.make CMakeFiles/CodeEditor.dir/CodeEditor_autogen/mocs_compilation.cpp.s
-.PHONY : CodeEditor_autogen/mocs_compilation.cpp.s
-
-src/editor.o: src/editor.cpp.o
-.PHONY : src/editor.o
-
-# target to build an object file
-src/editor.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CodeEditor.dir/build.make CMakeFiles/CodeEditor.dir/src/editor.cpp.o
-.PHONY : src/editor.cpp.o
-
-src/editor.i: src/editor.cpp.i
-.PHONY : src/editor.i
-
-# target to preprocess a source file
-src/editor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CodeEditor.dir/build.make CMakeFiles/CodeEditor.dir/src/editor.cpp.i
-.PHONY : src/editor.cpp.i
-
-src/editor.s: src/editor.cpp.s
-.PHONY : src/editor.s
-
-# target to generate assembly for a file
-src/editor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CodeEditor.dir/build.make CMakeFiles/CodeEditor.dir/src/editor.cpp.s
-.PHONY : src/editor.cpp.s
-
-src/filemanager.o: src/filemanager.cpp.o
-.PHONY : src/filemanager.o
-
-# target to build an object file
-src/filemanager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CodeEditor.dir/build.make CMakeFiles/CodeEditor.dir/src/filemanager.cpp.o
-.PHONY : src/filemanager.cpp.o
-
-src/filemanager.i: src/filemanager.cpp.i
-.PHONY : src/filemanager.i
-
-# target to preprocess a source file
-src/filemanager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CodeEditor.dir/build.make CMakeFiles/CodeEditor.dir/src/filemanager.cpp.i
-.PHONY : src/filemanager.cpp.i
-
-src/filemanager.s: src/filemanager.cpp.s
-.PHONY : src/filemanager.s
-
-# target to generate assembly for a file
-src/filemanager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CodeEditor.dir/build.make CMakeFiles/CodeEditor.dir/src/filemanager.cpp.s
-.PHONY : src/filemanager.cpp.s
-
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -264,54 +166,6 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CodeEditor.dir/build.make CMakeFiles/CodeEditor.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/syntax.o: src/syntax.cpp.o
-.PHONY : src/syntax.o
-
-# target to build an object file
-src/syntax.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CodeEditor.dir/build.make CMakeFiles/CodeEditor.dir/src/syntax.cpp.o
-.PHONY : src/syntax.cpp.o
-
-src/syntax.i: src/syntax.cpp.i
-.PHONY : src/syntax.i
-
-# target to preprocess a source file
-src/syntax.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CodeEditor.dir/build.make CMakeFiles/CodeEditor.dir/src/syntax.cpp.i
-.PHONY : src/syntax.cpp.i
-
-src/syntax.s: src/syntax.cpp.s
-.PHONY : src/syntax.s
-
-# target to generate assembly for a file
-src/syntax.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CodeEditor.dir/build.make CMakeFiles/CodeEditor.dir/src/syntax.cpp.s
-.PHONY : src/syntax.cpp.s
-
-src/ui.o: src/ui.cpp.o
-.PHONY : src/ui.o
-
-# target to build an object file
-src/ui.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CodeEditor.dir/build.make CMakeFiles/CodeEditor.dir/src/ui.cpp.o
-.PHONY : src/ui.cpp.o
-
-src/ui.i: src/ui.cpp.i
-.PHONY : src/ui.i
-
-# target to preprocess a source file
-src/ui.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CodeEditor.dir/build.make CMakeFiles/CodeEditor.dir/src/ui.cpp.i
-.PHONY : src/ui.cpp.i
-
-src/ui.s: src/ui.cpp.s
-.PHONY : src/ui.s
-
-# target to generate assembly for a file
-src/ui.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CodeEditor.dir/build.make CMakeFiles/CodeEditor.dir/src/ui.cpp.s
-.PHONY : src/ui.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -320,28 +174,11 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... CodeEditor_autogen"
-	@echo "... CodeEditor_autogen_timestamp_deps"
 	@echo "... run"
 	@echo "... CodeEditor"
-	@echo "... CodeEditor_autogen/mocs_compilation.o"
-	@echo "... CodeEditor_autogen/mocs_compilation.i"
-	@echo "... CodeEditor_autogen/mocs_compilation.s"
-	@echo "... src/editor.o"
-	@echo "... src/editor.i"
-	@echo "... src/editor.s"
-	@echo "... src/filemanager.o"
-	@echo "... src/filemanager.i"
-	@echo "... src/filemanager.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/syntax.o"
-	@echo "... src/syntax.i"
-	@echo "... src/syntax.s"
-	@echo "... src/ui.o"
-	@echo "... src/ui.i"
-	@echo "... src/ui.s"
 .PHONY : help
 
 

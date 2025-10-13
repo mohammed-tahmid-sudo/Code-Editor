@@ -66,7 +66,9 @@ include CMakeFiles/run.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/run.dir/progress.make
 
-CMakeFiles/run: CodeEditor
+CMakeFiles/run:
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/tahmid/code_editor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building and running CodeEditor..."
+	/usr/bin/cmake --build /home/tahmid/code_editor
 	/home/tahmid/code_editor/CodeEditor
 
 run: CMakeFiles/run

@@ -145,7 +145,6 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "CMakeFiles/CodeEditor_autogen.dir/AutogenInfo.json"
   ".qt/QtDeploySupport.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
@@ -154,6 +153,4 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/CodeEditor.dir/DependInfo.cmake"
   "CMakeFiles/run.dir/DependInfo.cmake"
-  "CMakeFiles/CodeEditor_autogen_timestamp_deps.dir/DependInfo.cmake"
-  "CMakeFiles/CodeEditor_autogen.dir/DependInfo.cmake"
   )

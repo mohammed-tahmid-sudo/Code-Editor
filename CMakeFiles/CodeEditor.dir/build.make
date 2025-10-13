@@ -69,59 +69,10 @@ include CMakeFiles/CodeEditor.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/CodeEditor.dir/flags.make
 
-CodeEditor_autogen/timestamp: /usr/lib/qt6/libexec/moc
-CodeEditor_autogen/timestamp: /usr/lib/qt6/libexec/uic
-CodeEditor_autogen/timestamp: CMakeFiles/CodeEditor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/tahmid/code_editor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target CodeEditor"
-	/usr/bin/cmake -E cmake_autogen /home/tahmid/code_editor/CMakeFiles/CodeEditor_autogen.dir/AutogenInfo.json ""
-	/usr/bin/cmake -E touch /home/tahmid/code_editor/CodeEditor_autogen/timestamp
-
-CMakeFiles/CodeEditor.dir/CodeEditor_autogen/mocs_compilation.cpp.o: CMakeFiles/CodeEditor.dir/flags.make
-CMakeFiles/CodeEditor.dir/CodeEditor_autogen/mocs_compilation.cpp.o: CodeEditor_autogen/mocs_compilation.cpp
-CMakeFiles/CodeEditor.dir/CodeEditor_autogen/mocs_compilation.cpp.o: CMakeFiles/CodeEditor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tahmid/code_editor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CodeEditor.dir/CodeEditor_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CodeEditor.dir/CodeEditor_autogen/mocs_compilation.cpp.o -MF CMakeFiles/CodeEditor.dir/CodeEditor_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/CodeEditor.dir/CodeEditor_autogen/mocs_compilation.cpp.o -c /home/tahmid/code_editor/CodeEditor_autogen/mocs_compilation.cpp
-
-CMakeFiles/CodeEditor.dir/CodeEditor_autogen/mocs_compilation.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CodeEditor.dir/CodeEditor_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tahmid/code_editor/CodeEditor_autogen/mocs_compilation.cpp > CMakeFiles/CodeEditor.dir/CodeEditor_autogen/mocs_compilation.cpp.i
-
-CMakeFiles/CodeEditor.dir/CodeEditor_autogen/mocs_compilation.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CodeEditor.dir/CodeEditor_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tahmid/code_editor/CodeEditor_autogen/mocs_compilation.cpp -o CMakeFiles/CodeEditor.dir/CodeEditor_autogen/mocs_compilation.cpp.s
-
-CMakeFiles/CodeEditor.dir/src/editor.cpp.o: CMakeFiles/CodeEditor.dir/flags.make
-CMakeFiles/CodeEditor.dir/src/editor.cpp.o: src/editor.cpp
-CMakeFiles/CodeEditor.dir/src/editor.cpp.o: CMakeFiles/CodeEditor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tahmid/code_editor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CodeEditor.dir/src/editor.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CodeEditor.dir/src/editor.cpp.o -MF CMakeFiles/CodeEditor.dir/src/editor.cpp.o.d -o CMakeFiles/CodeEditor.dir/src/editor.cpp.o -c /home/tahmid/code_editor/src/editor.cpp
-
-CMakeFiles/CodeEditor.dir/src/editor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CodeEditor.dir/src/editor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tahmid/code_editor/src/editor.cpp > CMakeFiles/CodeEditor.dir/src/editor.cpp.i
-
-CMakeFiles/CodeEditor.dir/src/editor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CodeEditor.dir/src/editor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tahmid/code_editor/src/editor.cpp -o CMakeFiles/CodeEditor.dir/src/editor.cpp.s
-
-CMakeFiles/CodeEditor.dir/src/filemanager.cpp.o: CMakeFiles/CodeEditor.dir/flags.make
-CMakeFiles/CodeEditor.dir/src/filemanager.cpp.o: src/filemanager.cpp
-CMakeFiles/CodeEditor.dir/src/filemanager.cpp.o: CMakeFiles/CodeEditor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tahmid/code_editor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CodeEditor.dir/src/filemanager.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CodeEditor.dir/src/filemanager.cpp.o -MF CMakeFiles/CodeEditor.dir/src/filemanager.cpp.o.d -o CMakeFiles/CodeEditor.dir/src/filemanager.cpp.o -c /home/tahmid/code_editor/src/filemanager.cpp
-
-CMakeFiles/CodeEditor.dir/src/filemanager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CodeEditor.dir/src/filemanager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tahmid/code_editor/src/filemanager.cpp > CMakeFiles/CodeEditor.dir/src/filemanager.cpp.i
-
-CMakeFiles/CodeEditor.dir/src/filemanager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CodeEditor.dir/src/filemanager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tahmid/code_editor/src/filemanager.cpp -o CMakeFiles/CodeEditor.dir/src/filemanager.cpp.s
-
 CMakeFiles/CodeEditor.dir/src/main.cpp.o: CMakeFiles/CodeEditor.dir/flags.make
 CMakeFiles/CodeEditor.dir/src/main.cpp.o: src/main.cpp
 CMakeFiles/CodeEditor.dir/src/main.cpp.o: CMakeFiles/CodeEditor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tahmid/code_editor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CodeEditor.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tahmid/code_editor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CodeEditor.dir/src/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CodeEditor.dir/src/main.cpp.o -MF CMakeFiles/CodeEditor.dir/src/main.cpp.o.d -o CMakeFiles/CodeEditor.dir/src/main.cpp.o -c /home/tahmid/code_editor/src/main.cpp
 
 CMakeFiles/CodeEditor.dir/src/main.cpp.i: cmake_force
@@ -132,52 +83,14 @@ CMakeFiles/CodeEditor.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CodeEditor.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tahmid/code_editor/src/main.cpp -o CMakeFiles/CodeEditor.dir/src/main.cpp.s
 
-CMakeFiles/CodeEditor.dir/src/syntax.cpp.o: CMakeFiles/CodeEditor.dir/flags.make
-CMakeFiles/CodeEditor.dir/src/syntax.cpp.o: src/syntax.cpp
-CMakeFiles/CodeEditor.dir/src/syntax.cpp.o: CMakeFiles/CodeEditor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tahmid/code_editor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CodeEditor.dir/src/syntax.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CodeEditor.dir/src/syntax.cpp.o -MF CMakeFiles/CodeEditor.dir/src/syntax.cpp.o.d -o CMakeFiles/CodeEditor.dir/src/syntax.cpp.o -c /home/tahmid/code_editor/src/syntax.cpp
-
-CMakeFiles/CodeEditor.dir/src/syntax.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CodeEditor.dir/src/syntax.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tahmid/code_editor/src/syntax.cpp > CMakeFiles/CodeEditor.dir/src/syntax.cpp.i
-
-CMakeFiles/CodeEditor.dir/src/syntax.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CodeEditor.dir/src/syntax.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tahmid/code_editor/src/syntax.cpp -o CMakeFiles/CodeEditor.dir/src/syntax.cpp.s
-
-CMakeFiles/CodeEditor.dir/src/ui.cpp.o: CMakeFiles/CodeEditor.dir/flags.make
-CMakeFiles/CodeEditor.dir/src/ui.cpp.o: src/ui.cpp
-CMakeFiles/CodeEditor.dir/src/ui.cpp.o: CMakeFiles/CodeEditor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tahmid/code_editor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/CodeEditor.dir/src/ui.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CodeEditor.dir/src/ui.cpp.o -MF CMakeFiles/CodeEditor.dir/src/ui.cpp.o.d -o CMakeFiles/CodeEditor.dir/src/ui.cpp.o -c /home/tahmid/code_editor/src/ui.cpp
-
-CMakeFiles/CodeEditor.dir/src/ui.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CodeEditor.dir/src/ui.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tahmid/code_editor/src/ui.cpp > CMakeFiles/CodeEditor.dir/src/ui.cpp.i
-
-CMakeFiles/CodeEditor.dir/src/ui.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CodeEditor.dir/src/ui.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tahmid/code_editor/src/ui.cpp -o CMakeFiles/CodeEditor.dir/src/ui.cpp.s
-
 # Object files for target CodeEditor
 CodeEditor_OBJECTS = \
-"CMakeFiles/CodeEditor.dir/CodeEditor_autogen/mocs_compilation.cpp.o" \
-"CMakeFiles/CodeEditor.dir/src/editor.cpp.o" \
-"CMakeFiles/CodeEditor.dir/src/filemanager.cpp.o" \
-"CMakeFiles/CodeEditor.dir/src/main.cpp.o" \
-"CMakeFiles/CodeEditor.dir/src/syntax.cpp.o" \
-"CMakeFiles/CodeEditor.dir/src/ui.cpp.o"
+"CMakeFiles/CodeEditor.dir/src/main.cpp.o"
 
 # External object files for target CodeEditor
 CodeEditor_EXTERNAL_OBJECTS =
 
-CodeEditor: CMakeFiles/CodeEditor.dir/CodeEditor_autogen/mocs_compilation.cpp.o
-CodeEditor: CMakeFiles/CodeEditor.dir/src/editor.cpp.o
-CodeEditor: CMakeFiles/CodeEditor.dir/src/filemanager.cpp.o
 CodeEditor: CMakeFiles/CodeEditor.dir/src/main.cpp.o
-CodeEditor: CMakeFiles/CodeEditor.dir/src/syntax.cpp.o
-CodeEditor: CMakeFiles/CodeEditor.dir/src/ui.cpp.o
 CodeEditor: CMakeFiles/CodeEditor.dir/build.make
 CodeEditor: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2
 CodeEditor: /usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.4.2
@@ -185,7 +98,7 @@ CodeEditor: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
 CodeEditor: /usr/lib/x86_64-linux-gnu/libGLX.so
 CodeEditor: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 CodeEditor: CMakeFiles/CodeEditor.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/tahmid/code_editor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable CodeEditor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/tahmid/code_editor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable CodeEditor"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CodeEditor.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -196,7 +109,7 @@ CMakeFiles/CodeEditor.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/CodeEditor.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/CodeEditor.dir/clean
 
-CMakeFiles/CodeEditor.dir/depend: CodeEditor_autogen/timestamp
+CMakeFiles/CodeEditor.dir/depend:
 	cd /home/tahmid/code_editor && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tahmid/code_editor /home/tahmid/code_editor /home/tahmid/code_editor /home/tahmid/code_editor /home/tahmid/code_editor/CMakeFiles/CodeEditor.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/CodeEditor.dir/depend
 
