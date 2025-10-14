@@ -268,11 +268,24 @@ CMakeFiles/CodeEditor.dir/src/main.cpp.o: src/main.cpp \
   /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/qt6/Qsci/qscicommand.h \
+  /usr/include/x86_64-linux-gnu/qt6/Qsci/qscidocument.h \
+  /usr/include/x86_64-linux-gnu/qt6/Qsci/qsciglobal.h \
+  /usr/include/x86_64-linux-gnu/qt6/Qsci/qscilexer.h \
+  /usr/include/x86_64-linux-gnu/qt6/Qsci/qscilexercpp.h \
+  /usr/include/x86_64-linux-gnu/qt6/Qsci/qscilexerpython.h \
+  /usr/include/x86_64-linux-gnu/qt6/Qsci/qsciscintilla.h \
+  /usr/include/x86_64-linux-gnu/qt6/Qsci/qsciscintillabase.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QByteArray \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QList \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QMap \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QObject \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/QRect \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/QSize \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/QSizeF \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QPoint \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QPointer \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QString \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QStringList \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QTimer \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QUrl \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qalgorithms.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qanystringview.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qarraydata.h \
@@ -281,6 +294,7 @@ CMakeFiles/CodeEditor.dir/src/main.cpp.o: src/main.cpp \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qatomic.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qatomic_cxx11.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qbasicatomic.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qbasictimer.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qbindingstorage.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qbytearray.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qbytearrayalgorithms.h \
@@ -308,7 +322,6 @@ CMakeFiles/CodeEditor.dir/src/main.cpp.o: src/main.cpp \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qglobalstatic.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qhash.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qhashfunctions.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/qiodevice.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qiodevicebase.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qiterable.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qiterator.h \
@@ -358,6 +371,7 @@ CMakeFiles/CodeEditor.dir/src/main.cpp.o: src/main.cpp \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qtcore-config.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qtcoreexports.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qtextstream.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qtimer.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qtmetamacros.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qtypeinfo.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qurl.h \
@@ -365,62 +379,41 @@ CMakeFiles/CodeEditor.dir/src/main.cpp.o: src/main.cpp \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qvariant.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qvarlengtharray.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qversiontagging.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/QTransform \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qabstracttextdocumentlayout.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/QColor \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/QFont \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qaction.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qbitmap.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qbrush.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qcolor.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qcursor.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qevent.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qeventpoint.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qfont.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qfontdatabase.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qfontinfo.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qfontmetrics.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qglyphrun.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qguiapplication.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qguiapplication_platform.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qicon.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qimage.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qinputdevice.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qinputmethod.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qkeysequence.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qpaintdevice.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qpalette.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qpen.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qpixelformat.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qpixmap.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qpointingdevice.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qpolygon.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qrawfont.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qregion.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qrgb.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qrgba64.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qscreen.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextcursor.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextdocument.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextformat.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextlayout.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextoption.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qtgui-config.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qtguiexports.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qtguiglobal.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qtransform.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qvector2d.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtGui/qvectornd.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qwindowdefs.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QAbstractScrollArea \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QApplication \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMainWindow \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QPlainTextEdit \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractscrollarea.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qapplication.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qframe.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmainwindow.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qplaintextedit.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qsizepolicy.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtabwidget.h \
-  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtextedit.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgets-config.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgetsexports.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgetsglobal.h \
@@ -437,53 +430,29 @@ CMakeFiles/CodeEditor.dir/src/main.cpp.o: src/main.cpp \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h
 
 
-/usr/include/x86_64-linux-gnu/sys/types.h:
-
 /usr/include/x86_64-linux-gnu/sys/single_threaded.h:
 
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
 
-/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgetsexports.h:
-
 /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgets-config.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtabwidget.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qsizepolicy.h:
 
-/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmainwindow.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtGui/qvectornd.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtGui/qvector2d.h:
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QAbstractScrollArea:
 
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qtguiglobal.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qtgui-config.h:
 
-/usr/include/x86_64-linux-gnu/qt6/QtGui/qtextlayout.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtGui/qtextformat.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtGui/qtextcursor.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtGui/qrawfont.h:
-
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qpolygon.h:
 
-/usr/include/x86_64-linux-gnu/qt6/QtGui/qpointingdevice.h:
-
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qpixelformat.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtGui/qpen.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qpalette.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qguiapplication_platform.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qguiapplication.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtGui/qglyphrun.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qfontmetrics.h:
 
@@ -495,15 +464,13 @@ CMakeFiles/CodeEditor.dir/src/main.cpp.o: src/main.cpp \
 
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qfont.h:
 
-/usr/include/x86_64-linux-gnu/qt6/QtGui/qevent.h:
-
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qcolor.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qaction.h:
 
-/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtextedit.h:
+/usr/include/x86_64-linux-gnu/qt6/QtGui/QColor:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qversiontagging.h:
 
@@ -513,11 +480,15 @@ CMakeFiles/CodeEditor.dir/src/main.cpp.o: src/main.cpp \
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qtmetamacros.h:
 
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qtimer.h:
+
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qtcoreexports.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qtaggedpointer.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qsystemdetection.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtGui/QFont:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qsysinfo.h:
 
@@ -567,8 +538,6 @@ CMakeFiles/CodeEditor.dir/src/main.cpp.o: src/main.cpp \
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qobject_impl.h:
 
-/usr/include/x86_64-linux-gnu/qt6/QtGui/qfontdatabase.h:
-
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qnativeinterface.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qnamespace.h:
@@ -586,8 +555,6 @@ CMakeFiles/CodeEditor.dir/src/main.cpp.o: src/main.cpp \
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qline.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qiodevice.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qhashfunctions.h:
 
@@ -637,6 +604,8 @@ CMakeFiles/CodeEditor.dir/src/main.cpp.o: src/main.cpp \
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qbytearray.h:
 
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qbasictimer.h:
+
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qbasicatomic.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qatomic_cxx11.h:
@@ -647,27 +616,39 @@ CMakeFiles/CodeEditor.dir/src/main.cpp.o: src/main.cpp \
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qarraydatapointer.h:
 
-/usr/include/x86_64-linux-gnu/qt6/QtGui/qscreen.h:
-
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qarraydataops.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qarraydata.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgetsexports.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/QTimer:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/QStringList:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qbytearraylist.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qanystringview.h:
 
-/usr/include/x86_64-linux-gnu/qt6/QtCore/QSizeF:
+/usr/include/x86_64-linux-gnu/qt6/QtCore/QString:
 
-/usr/include/x86_64-linux-gnu/qt6/QtCore/QSize:
-
-/usr/include/x86_64-linux-gnu/qt6/QtCore/QRect:
-
-/usr/include/x86_64-linux-gnu/qt6/QtGui/QTransform:
+/usr/include/x86_64-linux-gnu/qt6/QtCore/QPoint:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/QObject:
 
+/usr/include/x86_64-linux-gnu/sys/types.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/QMap:
+
 /usr/include/x86_64-linux-gnu/qt6/QtCore/QList:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/QByteArray:
+
+/usr/include/x86_64-linux-gnu/qt6/Qsci/qscilexerpython.h:
+
+/usr/include/x86_64-linux-gnu/qt6/Qsci/qscilexercpp.h:
+
+/usr/include/x86_64-linux-gnu/qt6/Qsci/qscicommand.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
 
@@ -719,8 +700,6 @@ CMakeFiles/CodeEditor.dir/src/main.cpp.o: src/main.cpp \
 
 /usr/include/c++/13/ctime:
 
-/usr/include/x86_64-linux-gnu/qt6/QtGui/qinputdevice.h:
-
 /usr/include/c++/13/cstdlib:
 
 /usr/include/c++/13/cstdint:
@@ -753,6 +732,8 @@ CMakeFiles/CodeEditor.dir/src/main.cpp.o: src/main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
+/usr/include/x86_64-linux-gnu/qt6/Qsci/qsciscintillabase.h:
+
 /usr/include/c++/13/bits/unordered_map.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qtguiexports.h:
@@ -761,9 +742,11 @@ CMakeFiles/CodeEditor.dir/src/main.cpp.o: src/main.cpp \
 
 /usr/include/c++/13/bits/stl_uninitialized.h:
 
-/usr/include/x86_64-linux-gnu/qt6/QtGui/qtextoption.h:
-
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qrgba64.h:
+
+/usr/include/x86_64-linux-gnu/qt6/Qsci/qscilexer.h:
+
+/usr/include/x86_64-linux-gnu/qt6/Qsci/qscidocument.h:
 
 /usr/include/c++/13/bits/stl_map.h:
 
@@ -863,11 +846,7 @@ CMakeFiles/CodeEditor.dir/src/main.cpp.o: src/main.cpp \
 
 /usr/include/c++/13/bits/atomic_lockfree_defines.h:
 
-/usr/include/x86_64-linux-gnu/qt6/QtGui/qeventpoint.h:
-
 /usr/include/x86_64-linux-gnu/asm/errno.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtGui/qtextdocument.h:
 
 /usr/include/c++/13/ext/numeric_traits.h:
 
@@ -929,6 +908,8 @@ CMakeFiles/CodeEditor.dir/src/main.cpp.o: src/main.cpp \
 
 /usr/include/c++/13/bits/stl_raw_storage_iter.h:
 
+/usr/include/x86_64-linux-gnu/qt6/Qsci/qsciglobal.h:
+
 /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
 
 /usr/include/c++/13/bits/hashtable.h:
@@ -988,6 +969,8 @@ src/main.cpp:
 /usr/include/c++/13/bits/stl_iterator_base_types.h:
 
 /usr/include/stdio.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/QPointer:
 
 /usr/include/assert.h:
 
@@ -1137,8 +1120,6 @@ src/main.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
-/usr/include/x86_64-linux-gnu/qt6/QtGui/qabstracttextdocumentlayout.h:
-
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qtextstream.h:
 
 /usr/include/c++/13/tr1/poly_hermite.tcc:
@@ -1171,11 +1152,11 @@ src/main.cpp:
 
 /usr/include/features.h:
 
+/usr/include/x86_64-linux-gnu/qt6/QtCore/QUrl:
+
 /usr/include/c++/13/debug/debug.h:
 
 /usr/include/linux/errno.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qplaintextedit.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
 
@@ -1267,8 +1248,6 @@ src/main.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/time64.h:
 
-/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QPlainTextEdit:
-
 /usr/include/c++/13/bits/locale_classes.h:
 
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
@@ -1280,8 +1259,6 @@ src/main.cpp:
 /usr/include/math.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMainWindow:
 
 /usr/include/c++/13/bits/stl_multimap.h:
 
@@ -1296,6 +1273,8 @@ src/main.cpp:
 /usr/include/c++/13/ext/atomicity.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+
+/usr/include/x86_64-linux-gnu/qt6/Qsci/qsciscintilla.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 

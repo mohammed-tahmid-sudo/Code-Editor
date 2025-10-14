@@ -1,0 +1,4 @@
+/home/tahmid/code_editor/build/CMakeFiles/CodeEditor.dir
+/home/tahmid/code_editor/build/CMakeFiles/run.dir
+/home/tahmid/code_editor/build/CMakeFiles/edit_cache.dir
+/home/tahmid/code_editor/build/CMakeFiles/rebuild_cache.dir

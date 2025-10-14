@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/tahmid/code_editor/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/tahmid/code_editor/src -I/usr/include/Qsci -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -std=gnu++17 -fPIC -o CMakeFiles/CodeEditor.dir/src/main.cpp.o -c /home/tahmid/code_editor/src/main.cpp",
+  "file": "/home/tahmid/code_editor/src/main.cpp",
+  "output": "CMakeFiles/CodeEditor.dir/src/main.cpp.o"
+}
+]
