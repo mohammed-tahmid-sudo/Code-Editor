@@ -2,29 +2,62 @@
 #include <Qsci/qscilexercpp.h>
 #include <Qsci/qscilexerpython.h>
 #include <Qsci/qsciscintilla.h>
+#include <qapplication.h>
+#include <qdir.h>
+#include <qfilesystemmodel.h>
+#include <qmainwindow.h>
+#include <qnamespace.h>
+#include <qobject.h>
+#include <qsplitter.h>
+#include <qtreeview.h>
+#include <qwindowdefs.h>
+void openFileFromTree(const QModelIndex &index, QFileSystemModel *model,
+                      QsciScintilla *editor) {
+  QString path = model->filePath(index);
+  QFileInfo info(path);
+  if (info.isFile()) {
+    QFile file(path);
+    if (file.open(QIODevice::ReadOnly | QIODevice::Text)) {
+      QTextStream in(&file);
+      editor->setText(in.readAll());
+    }
+  }
+}
 
 int main(int argc, char *argv[]) {
   QApplication app(argc, argv);
+  QMainWindow window;
 
-  // Create QScintilla editor
-  QsciScintilla editor;
+  auto *editor = new QsciScintilla;
+  auto *file_tree = new QTreeView;
+  auto *model = new QFileSystemModel;
+  auto *lexer = new QsciLexerCPP;
 
-  // Set C++ lexer for syntax highlighting
-  QsciLexerPython *lexer = new QsciLexerPython();
-  editor.setLexer(lexer);
+  editor->setLexer(lexer);
+  model->setRootPath(QDir::currentPath());
+  model->setFilter(QDir::NoDotAndDotDot | QDir::AllEntries);
 
-  // Enable line numbers in margin 1
-  editor.setMarginType(1, QsciScintilla::NumberMargin);
-  editor.setMarginLineNumbers(1, true);
-  editor.setMarginWidth(1, 40);
+  file_tree->setModel(model);
 
-  // UTF-8 support
-  editor.setUtf8(true);
+  file_tree->setRootIndex(model->index(QDir::currentPath()));
+  file_tree->setHeaderHidden(true);
 
+  auto *splitter = new QSplitter(Qt::Horizontal);
 
-  // Resize and show
-  editor.resize(800, 600);
-  editor.show();
+  splitter->addWidget(file_tree);
+  splitter->addWidget(editor);
+  splitter->setStretchFactor(1, 1);
 
+  QObject::connect(file_tree, &QTreeView::clicked,
+                   [&](const QModelIndex &index) {
+                     openFileFromTree(index, model, editor);
+                   });
+
+  window.setCentralWidget(splitter);
+
+  window.setWindowTitle("Code Editor");
+
+  window.resize(1200, 900);
+  window.show();
   return app.exec();
 }
