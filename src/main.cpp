@@ -1,7 +1,13 @@
 #include <QApplication>
+#include <Qsci/qscilexerbash.h>
+#include <Qsci/qscilexercmake.h>
 #include <Qsci/qscilexercpp.h>
+#include <Qsci/qscilexerjava.h>
+#include <Qsci/qscilexermakefile.h>
 #include <Qsci/qscilexerpython.h>
+#include <Qsci/qscilexersql.h>
 #include <Qsci/qsciscintilla.h>
+#include <cerrno>
 #include <qapplication.h>
 #include <qdir.h>
 #include <qfilesystemmodel.h>
@@ -11,6 +17,12 @@
 #include <qsplitter.h>
 #include <qtreeview.h>
 #include <qwindowdefs.h>
+#include <string>
+
+bool endsWith(const std::string &str, const std::string &suffix) {
+  return str.size() >= suffix.size() &&
+         str.compare(str.size() - suffix.size(), suffix.size(), suffix) == 0;
+}
 void openFileFromTree(const QModelIndex &index, QFileSystemModel *model,
                       QsciScintilla *editor) {
   QString path = model->filePath(index);
@@ -18,6 +30,38 @@ void openFileFromTree(const QModelIndex &index, QFileSystemModel *model,
   if (info.isFile()) {
     QFile file(path);
     if (file.open(QIODevice::ReadOnly | QIODevice::Text)) {
+
+      if (endsWith(path.toStdString(), ".cpp")) {
+
+        auto *lexer = new QsciLexerCPP;
+        editor->setLexer(lexer);
+
+      } else if (endsWith(path.toStdString(), ".py")) {
+
+        auto *lexer = new QsciLexerPython;
+        editor->setLexer(lexer);
+
+      } else if (endsWith(path.toStdString(), ".java")) {
+
+        auto *lexer = new QsciLexerJava;
+        editor->setLexer(lexer);
+
+      } else if (endsWith(path.toStdString(), ".sql")) {
+
+        auto *lexer = new QsciLexerSQL;
+        editor->setLexer(lexer);
+
+      } else if (endsWith(path.toStdString(), "MakeFile")) {
+
+        auto *lexer = new QsciLexerMakefile;
+        editor->setLexer(lexer);
+
+      } else if (endsWith(path.toStdString(), "CmakeLists.txt")) {
+
+        auto *lexer = new QsciLexerCMake;
+        editor->setLexer(lexer);
+      }
+
       QTextStream in(&file);
       editor->setText(in.readAll());
     }
@@ -27,6 +71,8 @@ void openFileFromTree(const QModelIndex &index, QFileSystemModel *model,
 int main(int argc, char *argv[]) {
   QApplication app(argc, argv);
   QMainWindow window;
+
+  QMenuBar *menubar = new QMenuBar(&window);
 
   auto *editor = new QsciScintilla;
   auto *file_tree = new QTreeView;

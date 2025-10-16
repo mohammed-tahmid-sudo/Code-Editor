@@ -333,7 +333,7 @@ CMakeFiles/CodeEditor.dir/src/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qlocale.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qvariant.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qguiapplication_platform.h \
- /usr/include/x86_64-linux-gnu/qt6/Qsci/qscilexercpp.h \
+ /usr/include/x86_64-linux-gnu/qt6/Qsci/qscilexerbash.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QObject \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qobject.h \
  /usr/include/x86_64-linux-gnu/qt6/Qsci/qsciglobal.h \
@@ -347,6 +347,10 @@ CMakeFiles/CodeEditor.dir/src/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qmap.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QString \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qstring.h \
+ /usr/include/x86_64-linux-gnu/qt6/Qsci/qscilexercmake.h \
+ /usr/include/x86_64-linux-gnu/qt6/Qsci/qscilexercpp.h \
+ /usr/include/x86_64-linux-gnu/qt6/Qsci/qscilexerjava.h \
+ /usr/include/x86_64-linux-gnu/qt6/Qsci/qscilexermakefile.h \
  /usr/include/x86_64-linux-gnu/qt6/Qsci/qscilexerpython.h \
  /usr/include/x86_64-linux-gnu/qt6/Qsci/qsciscintillabase.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QUrl \
@@ -371,6 +375,7 @@ CMakeFiles/CodeEditor.dir/src/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QTimer \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qtimer.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qbasictimer.h \
+ /usr/include/x86_64-linux-gnu/qt6/Qsci/qscilexersql.h \
  /usr/include/x86_64-linux-gnu/qt6/Qsci/qsciscintilla.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QList \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h \
