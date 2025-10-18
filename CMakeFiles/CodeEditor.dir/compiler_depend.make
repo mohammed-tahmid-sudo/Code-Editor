@@ -304,8 +304,13 @@ CMakeFiles/CodeEditor.dir/src/main.cpp.o: src/main.cpp \
   /usr/include/x86_64-linux-gnu/qt6/Qsci/qscidocument.h \
   /usr/include/x86_64-linux-gnu/qt6/Qsci/qsciglobal.h \
   /usr/include/x86_64-linux-gnu/qt6/Qsci/qscilexer.h \
+  /usr/include/x86_64-linux-gnu/qt6/Qsci/qscilexerbash.h \
+  /usr/include/x86_64-linux-gnu/qt6/Qsci/qscilexercmake.h \
   /usr/include/x86_64-linux-gnu/qt6/Qsci/qscilexercpp.h \
+  /usr/include/x86_64-linux-gnu/qt6/Qsci/qscilexerjava.h \
+  /usr/include/x86_64-linux-gnu/qt6/Qsci/qscilexermakefile.h \
   /usr/include/x86_64-linux-gnu/qt6/Qsci/qscilexerpython.h \
+  /usr/include/x86_64-linux-gnu/qt6/Qsci/qscilexersql.h \
   /usr/include/x86_64-linux-gnu/qt6/Qsci/qsciscintilla.h \
   /usr/include/x86_64-linux-gnu/qt6/Qsci/qsciscintillabase.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QByteArray \
@@ -456,6 +461,7 @@ CMakeFiles/CodeEditor.dir/src/main.cpp.o: src/main.cpp \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qwindowdefs.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QAbstractScrollArea \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QApplication \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMenuBar \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractitemdelegate.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractitemview.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractscrollarea.h \
@@ -465,6 +471,8 @@ CMakeFiles/CodeEditor.dir/src/main.cpp.o: src/main.cpp \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qfilesystemmodel.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qframe.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmainwindow.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmenu.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmenubar.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qrubberband.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qsizepolicy.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qslider.h \
@@ -503,6 +511,8 @@ CMakeFiles/CodeEditor.dir/src/main.cpp.o: src/main.cpp \
 /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qsplitter.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qsizepolicy.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmenu.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmainwindow.h:
 
@@ -575,8 +585,6 @@ CMakeFiles/CodeEditor.dir/src/main.cpp.o: src/main.cpp \
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringalgorithms.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qstring.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qsharedpointer.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qshareddata_impl.h:
 
@@ -718,9 +726,19 @@ CMakeFiles/CodeEditor.dir/src/main.cpp.o: src/main.cpp \
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/QByteArray:
 
+/usr/include/x86_64-linux-gnu/qt6/Qsci/qscilexersql.h:
+
 /usr/include/x86_64-linux-gnu/qt6/Qsci/qscilexerpython.h:
 
+/usr/include/x86_64-linux-gnu/qt6/Qsci/qscilexermakefile.h:
+
 /usr/include/x86_64-linux-gnu/qt6/Qsci/qscilexercpp.h:
+
+/usr/include/x86_64-linux-gnu/qt6/Qsci/qscilexercmake.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qsharedpointer.h:
+
+/usr/include/x86_64-linux-gnu/qt6/Qsci/qscilexerbash.h:
 
 /usr/include/x86_64-linux-gnu/qt6/Qsci/qscicommand.h:
 
@@ -784,6 +802,8 @@ CMakeFiles/CodeEditor.dir/src/main.cpp.o: src/main.cpp \
 
 /usr/include/x86_64-linux-gnu/qt6/Qsci/qsciscintilla.h:
 
+/usr/include/x86_64-linux-gnu/qt6/Qsci/qscilexerjava.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgetsglobal.h:
@@ -821,6 +841,8 @@ CMakeFiles/CodeEditor.dir/src/main.cpp.o: src/main.cpp \
 /usr/include/c++/13/cstdlib:
 
 /usr/include/c++/13/cctype:
+
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmenubar.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
@@ -1045,6 +1067,8 @@ CMakeFiles/CodeEditor.dir/src/main.cpp.o: src/main.cpp \
 /usr/include/c++/13/bits/stl_tree.h:
 
 /usr/include/c++/13/bits/codecvt.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMenuBar:
 
 /usr/include/c++/13/backward/binders.h:
 

@@ -1,4 +1,6 @@
 #include <QApplication>
+#include <QMenuBar>
+#include <Qsci/qscilexer.h>
 #include <Qsci/qscilexerbash.h>
 #include <Qsci/qscilexercmake.h>
 #include <Qsci/qscilexercpp.h>
@@ -8,6 +10,8 @@
 #include <Qsci/qscilexersql.h>
 #include <Qsci/qsciscintilla.h>
 #include <cerrno>
+#include <functional>
+#include <qaction.h>
 #include <qapplication.h>
 #include <qdir.h>
 #include <qfilesystemmodel.h>
@@ -18,11 +22,13 @@
 #include <qtreeview.h>
 #include <qwindowdefs.h>
 #include <string>
+#include <unordered_map>
 
 bool endsWith(const std::string &str, const std::string &suffix) {
   return str.size() >= suffix.size() &&
          str.compare(str.size() - suffix.size(), suffix.size(), suffix) == 0;
 }
+
 void openFileFromTree(const QModelIndex &index, QFileSystemModel *model,
                       QsciScintilla *editor) {
   QString path = model->filePath(index);
@@ -30,41 +36,22 @@ void openFileFromTree(const QModelIndex &index, QFileSystemModel *model,
   if (info.isFile()) {
     QFile file(path);
     if (file.open(QIODevice::ReadOnly | QIODevice::Text)) {
-
-      if (endsWith(path.toStdString(), ".cpp")) {
-
-        auto *lexer = new QsciLexerCPP;
-        editor->setLexer(lexer);
-
-      } else if (endsWith(path.toStdString(), ".py")) {
-
-        auto *lexer = new QsciLexerPython;
-        editor->setLexer(lexer);
-
-      } else if (endsWith(path.toStdString(), ".java")) {
-
-        auto *lexer = new QsciLexerJava;
-        editor->setLexer(lexer);
-
-      } else if (endsWith(path.toStdString(), ".sql")) {
-
-        auto *lexer = new QsciLexerSQL;
-        editor->setLexer(lexer);
-
-      } else if (endsWith(path.toStdString(), "MakeFile")) {
-
-        auto *lexer = new QsciLexerMakefile;
-        editor->setLexer(lexer);
-
-      } else if (endsWith(path.toStdString(), "CmakeLists.txt")) {
-
-        auto *lexer = new QsciLexerCMake;
-        editor->setLexer(lexer);
+      static const std::unordered_map<std::string, std::function<QsciLexer *()>>
+          lexers = {{".cpp", []() { return new QsciLexerCPP; }},
+                    {".py", []() { return new QsciLexerPython; }},
+                    {".java", []() { return new QsciLexerJava; }},
+                    {".sql", []() { return new QsciLexerSQL; }},
+                    {"MakeFile", []() { return new QsciLexerMakefile; }},
+                    {"CMakeLists.txt", []() { return new QsciLexerCMake; }}};
+      for (const auto &[ext, ctor] : lexers) {
+        if (endsWith(path.toStdString(), ext)) {
+          editor->setLexer(ctor());
+        }
       }
-
-      QTextStream in(&file);
-      editor->setText(in.readAll());
     }
+
+    QTextStream in(&file);
+    editor->setText(in.readAll());
   }
 }
 
@@ -72,14 +59,21 @@ int main(int argc, char *argv[]) {
   QApplication app(argc, argv);
   QMainWindow window;
 
-  QMenuBar *menubar = new QMenuBar(&window);
+  QMenuBar *menubar = window.menuBar();
+  QMenu *filemenu = menubar->addMenu("file");
+  QAction *save = menubar->addAction("Save");
+  QAction *save_as = menubar->addAction("Save as");
+  QAction *open_folder = menubar->addAction("Open Folder");
+  QAction *open_file = menubar->addAction("Open File");
 
   auto *editor = new QsciScintilla;
   auto *file_tree = new QTreeView;
   auto *model = new QFileSystemModel;
-  auto *lexer = new QsciLexerCPP;
 
-  editor->setLexer(lexer);
+  editor->setMarginType(0, QsciScintilla::NumberMargin);
+  editor->setMarginWidth(0, "0000"); // width for 4-digit line numbers
+  editor->setMarginLineNumbers(0, true);
+
   model->setRootPath(QDir::currentPath());
   model->setFilter(QDir::NoDotAndDotDot | QDir::AllEntries);
 
