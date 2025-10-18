@@ -36,6 +36,7 @@ void openFileFromTree(const QModelIndex &index, QFileSystemModel *model,
   if (info.isFile()) {
     QFile file(path);
     if (file.open(QIODevice::ReadOnly | QIODevice::Text)) {
+
       static const std::unordered_map<std::string, std::function<QsciLexer *()>>
           lexers = {{".cpp", []() { return new QsciLexerCPP; }},
                     {".py", []() { return new QsciLexerPython; }},
@@ -43,6 +44,7 @@ void openFileFromTree(const QModelIndex &index, QFileSystemModel *model,
                     {".sql", []() { return new QsciLexerSQL; }},
                     {"MakeFile", []() { return new QsciLexerMakefile; }},
                     {"CMakeLists.txt", []() { return new QsciLexerCMake; }}};
+
       for (const auto &[ext, ctor] : lexers) {
         if (endsWith(path.toStdString(), ext)) {
           editor->setLexer(ctor());
@@ -61,9 +63,13 @@ int main(int argc, char *argv[]) {
 
   QMenuBar *menubar = window.menuBar();
   QMenu *filemenu = menubar->addMenu("file");
+
   QAction *save = menubar->addAction("Save");
+
   QAction *save_as = menubar->addAction("Save as");
+
   QAction *open_folder = menubar->addAction("Open Folder");
+
   QAction *open_file = menubar->addAction("Open File");
 
   auto *editor = new QsciScintilla;
