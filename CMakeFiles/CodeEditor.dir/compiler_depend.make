@@ -143,6 +143,7 @@ CMakeFiles/CodeEditor.dir/src/main.cpp.o: src/main.cpp \
   /usr/include/c++/13/iomanip \
   /usr/include/c++/13/ios \
   /usr/include/c++/13/iosfwd \
+  /usr/include/c++/13/iostream \
   /usr/include/c++/13/istream \
   /usr/include/c++/13/iterator \
   /usr/include/c++/13/limits \
@@ -427,6 +428,7 @@ CMakeFiles/CodeEditor.dir/src/main.cpp.o: src/main.cpp \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qvariant.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qvarlengtharray.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qversiontagging.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/QAction \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/QColor \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/QFileSystemModel \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/QFont \
@@ -467,6 +469,7 @@ CMakeFiles/CodeEditor.dir/src/main.cpp.o: src/main.cpp \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractscrollarea.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractslider.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractspinbox.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qaction.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qapplication.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qfilesystemmodel.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qframe.h \
@@ -516,6 +519,8 @@ CMakeFiles/CodeEditor.dir/src/main.cpp.o: src/main.cpp \
 
 /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmainwindow.h:
 
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qaction.h:
+
 /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QAbstractScrollArea:
 
 /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qstyle.h:
@@ -549,6 +554,8 @@ CMakeFiles/CodeEditor.dir/src/main.cpp.o: src/main.cpp \
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qaction.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtGui/QColor:
+
+/usr/include/x86_64-linux-gnu/qt6/QtGui/QAction:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qversiontagging.h:
 
@@ -823,6 +830,8 @@ CMakeFiles/CodeEditor.dir/src/main.cpp.o: src/main.cpp \
 /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
 
 /usr/include/c++/13/debug/assertions.h:
 
@@ -1274,6 +1283,8 @@ src/main.cpp:
 
 /usr/include/c++/13/ios:
 
+/usr/include/c++/13/iostream:
+
 /usr/include/c++/13/istream:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
@@ -1377,8 +1388,6 @@ src/main.cpp:
 /usr/include/c++/13/vector:
 
 /usr/include/c++/13/version:
-
-/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
 
 /usr/include/ctype.h:
 
