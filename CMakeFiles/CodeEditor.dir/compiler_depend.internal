@@ -464,6 +464,7 @@ CMakeFiles/CodeEditor.dir/src/main.cpp.o
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qwindowdefs.h
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QAbstractScrollArea
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QApplication
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QFileDialog
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMenuBar
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractitemdelegate.h
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractitemview.h
@@ -472,6 +473,8 @@ CMakeFiles/CodeEditor.dir/src/main.cpp.o
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractspinbox.h
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qaction.h
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qapplication.h
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qdialog.h
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qfiledialog.h
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qfilesystemmodel.h
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qframe.h
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmainwindow.h

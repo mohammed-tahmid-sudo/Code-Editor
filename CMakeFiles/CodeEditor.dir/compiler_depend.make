@@ -463,6 +463,7 @@ CMakeFiles/CodeEditor.dir/src/main.cpp.o: src/main.cpp \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qwindowdefs.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QAbstractScrollArea \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QApplication \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QFileDialog \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMenuBar \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractitemdelegate.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractitemview.h \
@@ -471,6 +472,8 @@ CMakeFiles/CodeEditor.dir/src/main.cpp.o: src/main.cpp \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractspinbox.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qaction.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qapplication.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qdialog.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qfiledialog.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qfilesystemmodel.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qframe.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmainwindow.h \
@@ -917,7 +920,11 @@ CMakeFiles/CodeEditor.dir/src/main.cpp.o: src/main.cpp \
 
 /usr/include/asm-generic/errno.h:
 
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qdialog.h:
+
 /usr/include/c++/13/bits/functexcept.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qfiledialog.h:
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
@@ -1136,6 +1143,8 @@ CMakeFiles/CodeEditor.dir/src/main.cpp.o: src/main.cpp \
 /usr/include/c++/13/iosfwd:
 
 /usr/include/x86_64-linux-gnu/sys/select.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QFileDialog:
 
 /usr/include/c++/13/cwchar:
 

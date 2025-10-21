@@ -1,4 +1,5 @@
 #include <QApplication>
+#include <QFileDialog>
 #include <QMenuBar>
 #include <Qsci/qscilexer.h>
 #include <Qsci/qscilexerbash.h>
@@ -9,7 +10,6 @@
 #include <Qsci/qscilexerpython.h>
 #include <Qsci/qscilexersql.h>
 #include <Qsci/qsciscintilla.h>
-// #include <cerrno>
 #include <functional>
 #include <iostream>
 #include <qaction.h>
@@ -33,15 +33,28 @@ bool endsWith(const std::string &str, const std::string &suffix) {
 }
 
 // Functions called by menu actions
-void save_file(QMainWindow window, QsciScintilla *editor ) {
+// void save_file(QMainWindow window, QsciScintilla *editor) {
+//   QString fileName = QFileDialog::getSaveFileName(
+//       &window, "Save File", "", "C++ Files (*.cpp);;All Files (*)");
+//   if (!fileName.isEmpty()) {
+//     QFile file(fileName);
+//     if (file.open(QIODevice::WriteOnly | QIODevice::Text)) {
+//       QTextStream out(&file);
+//       out << editor->text(); // save editor content
+//       file.close();
+//     }
+//   }
+// }
+
+void save_file(QMainWindow *window, QsciScintilla *editor) {
   QString fileName = QFileDialog::getSaveFileName(
-      &window, "Save File", "", "C++ Files (*.cpp);;All Files (*)");
+      window, "Save File", "", "C++ Files (*.cpp);;All Files (*)");
+
   if (!fileName.isEmpty()) {
     QFile file(fileName);
     if (file.open(QIODevice::WriteOnly | QIODevice::Text)) {
       QTextStream out(&file);
-      out << editor->text(); // save editor content
-      file.close();
+      out << editor->text();
     }
   }
 }
