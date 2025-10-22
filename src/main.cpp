@@ -104,22 +104,6 @@ int main(int argc, char *argv[]) {
   QMenuBar *menubar = window.menuBar();
   QMenu *filemenu = menubar->addMenu("file");
 
-  // File menu actions
-  // QAction *save = filemenu->addAction("Save");
-  // QObject::connect(save, &QAction::triggered, []() { save_file(window, editor
-  // ); });
-  //
-  // QAction *save_as = filemenu->addAction("Save as");
-  // QObject::connect(save_as, &QAction::triggered, []() { save_file_as(); });
-  //
-  // QAction *open_folder = filemenu->addAction("Open Folder");
-  // QObject::connect(open_folder, &QAction::triggered,
-  //                  []() { open_folder_func(); });
-  //
-  // QAction *open_file = filemenu->addAction("Open File");
-  // QObject::connect(open_file, &QAction::triggered, []() { open_file_func();
-  // });
-
   // Editor and file tree setup
   auto *editor = new QsciScintilla;   // Code editor widget
   auto *file_tree = new QTreeView;    // File explorer widget
